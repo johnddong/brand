@@ -177,14 +177,17 @@ Navigation
 
 @media only screen and (min-width : 769px) {
 	#index{
+		position: relative;
 		background-image: url(../images/pc/bg-index.png);
 	}
 	#index .open-store{
+		position: relative;
+		bottom: 10%;
+		opacity: 0.91;
 		background-image: url(../images/pc/btn-open-store.png);
 		display: block;
 		height: 56px;
 		width: 304px;
-		margin-bottom: 210px;
 	}
 }
 
